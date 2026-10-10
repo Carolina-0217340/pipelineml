@@ -28,6 +28,7 @@ services:
       - ./logs:/app/logs
       - ./assets:/app/assets
       - ./src:/app/src
+      - ./.env:/app/.env  
     env_file:
       - ./.env
     environment:
